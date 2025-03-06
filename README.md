@@ -1,14 +1,60 @@
-Gemini Clone App
-A web-based AI chatbot application inspired by Google Gemini, built using React.js, JavaScript, HTML, and CSS. The app enables users to interact with an AI model through API calls, delivering intelligent responses in real-time.
-Features
- Interactive chatbot UI
- React.js for smooth user experience
- API integration for AI-powered responses
- Responsive design with HTML & CSS
- Dynamic updates with JavaScript
+# Gemini Clone App
 
-Technologies Used
-React.js – Frontend framework for building UI components
-JavaScript (ES6+) – Handling logic and API requests
-HTML5 & CSS3 – Structuring and styling the app
-API Integration – Connecting to an AI model
+A simple Gemini Clone app built using HTML, CSS, JavaScript, React.js, and Vite that fetches AI-generated responses via API calls.
+
+## Features
+
+- Fetch AI-generated responses via API
+- User-friendly chat interface
+- Responsive design for seamless experience on all devices
+- Dynamic UI using React.js and Vite for fast performance
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Vite
+- API Fetching (e.g., Gemini API, OpenAI API, etc.)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/gemini-clone.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd gemini-clone
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Usage
+
+1. Enter your query in the chatbox.
+2. Click the "Send" button.
+3. View AI-generated responses.
+
+## API Key Setup
+
+1. Sign up for an API key from your preferred AI service (e.g., Gemini API, OpenAI API).
+2. Add your API key in `gemini.js`:
+   ```
+   const apiKey=your_api_key_here
+   ```
+3. Install 
+   ```bash
+   npm install @google/generative-ai
+   ```
+4. Use the key in:
+   ```JavaScript
+   const genAI = new GoogleGenerativeAI(apiKey);
+   ```
